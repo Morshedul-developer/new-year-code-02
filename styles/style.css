@@ -43,6 +43,7 @@
 }
 #banner .banner-container button{
     font-size: 18px;
+    font-weight: 600;
     color: #005FAC;
     background-color: #FFFFFF;
     padding: 20px 25px;
@@ -52,4 +53,178 @@
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+}
+
+#failures{
+    padding-top: 131px;
+}
+#failures .failures-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 87px;
+}
+#failures .failures-container .fail-img img{
+    width: 550px;
+}
+#failures .failures-container .fail-des{
+    max-width: 416px;
+}
+#failures .failures-container .fail-des .section-heading{
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 24px;
+}
+#failures .failures-container .fail-des p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+#failures .failures-container .fail-des .des-tick .fa-check{
+    color: #16D887;
+}
+#failures .failures-container .fail-des .des-tick p{
+    margin-bottom: 8px;
+}
+
+#plans{
+    margin-top: 131px;
+}
+#plans .plans-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+#plans .plans-container h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 55px;
+    text-align: center;
+}
+#plans .plans-container .cards{
+    display: flex;
+    justify-content: space-between;
+}
+#plans .plans-container .cards .plan-card{
+    text-align: center;
+}
+
+#call{
+    margin-top: 131px;
+}
+#call .call-container{
+    width: 71%;
+    max-width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+#call .call-container .call-image img{
+    position: absolute;
+}
+#call .call-container .call-image .call-info{
+    position: absolute;
+    max-width: 459px;
+    top: 59px;
+    left: 64px;
+}
+#call .call-container .call-image .call-info h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+#call .call-container .call-image .call-info button{
+    background-color: #FFFFFF;
+    padding: 21px 36px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #005FAC;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+footer{
+    margin-top: 130px;
+    padding: 130px 0;
+    background-color: #151414;
+}
+footer .footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+footer .footer-container .footer-des{
+    max-width: 485px;
+}
+footer .footer-container .footer-des h2{
+    font-size: 45px;
+    font-weight: bold;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+footer .footer-container .footer-des p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+footer .footer-container .footer-des .extra-p{
+    margin-bottom: 16px;
+}
+footer .footer-container .footer-des .icons img{
+    width: 47px;
+    margin-right: 17px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+footer .footer-container form{
+    max-width: 325px;
+}
+footer .footer-container form h4{
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+footer .footer-container form input[type="email"]{
+    padding: 21px 158px 22px 21px;
+    background-color: #151414;
+    border: 1px solid #FFFFFF;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+footer .footer-container form input[type="email"]::placeholder{
+    color: #FFFFFF;
+}
+footer .footer-container form button{
+    background-color: #005FAC;
+    color: #FFFFFF;
+    padding: 20px 36px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
